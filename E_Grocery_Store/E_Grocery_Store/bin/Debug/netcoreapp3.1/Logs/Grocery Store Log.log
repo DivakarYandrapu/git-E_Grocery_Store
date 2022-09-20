@@ -1,0 +1,9 @@
+2022-09-19 23:03:25,965 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-09-19 23:03:25,992 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-09-19 23:03:25,998 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\mindc1july116\Desktop\Yandrapu.Divakar@mindtree.com Comprehensive\E_Grocery_Store\E_Grocery_Store
+2022-09-20 00:22:58,294 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-09-20 00:22:58,307 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-09-20 00:22:58,312 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\mindc1july116\Desktop\Yandrapu.Divakar@mindtree.com Comprehensive\E_Grocery_Store\E_Grocery_Store
+2022-09-20 00:44:37,737 [89] INFO E_Grocery_Store.Controllers.RatingController - Rating Details are Getting
+2022-09-20 00:45:07,542 [89] INFO E_Grocery_Store.Controllers.RatingController - Rating Created Successfully
+2022-09-20 00:45:57,958 [96] INFO E_Grocery_Store.Controllers.RatingController - Rating Created Successfully

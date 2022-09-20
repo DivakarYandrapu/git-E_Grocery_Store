@@ -1,0 +1,27 @@
+2022-09-19 19:11:03,932 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-09-19 19:11:03,968 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-09-19 19:11:03,972 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\mindc1july116\Desktop\Yandrapu.Divakar@mindtree.com Comprehensive\E_Grocery_Store\E_Grocery_Store
+2022-09-19 19:11:55,490 [7] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'E_Grocery_Store.Core.Ratings.IRating' while attempting to activate 'E_Grocery_Store.Controllers.RatingController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-09-19 21:24:17,481 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-09-19 21:24:17,511 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-09-19 21:24:17,514 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\mindc1july116\Desktop\Yandrapu.Divakar@mindtree.com Comprehensive\E_Grocery_Store\E_Grocery_Store
+2022-09-19 21:42:29,466 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-09-19 21:42:29,479 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-09-19 21:42:29,482 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\mindc1july116\Desktop\Yandrapu.Divakar@mindtree.com Comprehensive\E_Grocery_Store\E_Grocery_Store
